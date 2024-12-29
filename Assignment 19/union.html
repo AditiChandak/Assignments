@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Union Array</title>
+    </head>
+    <body>
+
+        <script>
+
+           var array1 = [1,2,3];
+           var array2 = [3,4,5];
+
+           var newArray = [];
+
+           for(var value of array1){
+            if( newArray.includes(value)){
+               
+            } else {
+                newArray.push(value);
+            }
+           }
+           for(var value of array2){
+            if( newArray.includes(value)){
+               
+            } else {
+                newArray.push(value);
+            }
+           }
+
+           document.write("Array 1 : " + array1 + "<br>");
+           document.write("Array 2 : " + array2 + "<br>");
+           document.write("Union of Both : " + newArray);
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,243 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+body{
+	font-family: arial;
+}
+.outer-main-div{
+	width: 100%;	
+}
+.menu-bar{
+	width: 100%;
+	background-color: white;
+	padding: 15px 180px;
+	box-sizing: border-box;
+}
+.logo{
+	float: left;
+}
+.logo img{
+	width: 150px;
+
+}
+.menu-list{
+	float: left;
+}
+.menu-list ul li{
+	float: left;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.menu-list ul li a{
+	color: #4E4E4E;
+}
+.menu-button{
+	width: 270px;
+	float: right;
+}
+.menu-button-1 button{
+	width: 150px;
+	padding: 15px;
+	background-color: white;
+	color: #4E4E4E;
+	border-color: #D3D3D3;
+	border-radius: 10px;
+	font-size: 16px;
+	float: left;
+}
+.menu-button-2 button{
+	background-color: #2699FB;
+	color: white;
+	width: 110px;
+	padding: 15px 10px;
+	box-sizing: border-box;
+	border-color: #D3D3D3;
+	border-radius: 10px;
+	font-size: 16px;
+	float: right;
+}
+.menu-button-1:hover button{
+	background-color: #2699FB;
+	color: white;
+}
+.menu-button-2:hover button{
+	background-color: white;
+	color: #4E4E4E;
+}
+
+
+.header{
+	width: 100%;
+	background-image: url(../images/spotlight-bg.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	padding-bottom: 50px;
+}
+.header h1{
+	font-size: 45px;
+	color: white;
+/*	text-align: center;*/
+	padding-top: 70px;
+	box-sizing: border-box;
+	background: url(../images/spotlight-heading-bg.svg) no-repeat bottom right;
+/*	padding-right: 30px;*/
+	box-sizing: border-box;
+	margin: 0px 475px;
+}
+.header p{
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}
+.number-box{
+	width: 100%;
+	text-align: center;
+	padding: 20px 80px;
+	box-sizing: border-box;
+}
+.box-1{
+	width: 24%;
+	border-right: 0.1px solid #2C2950;
+	float: left;
+	padding: 25px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.numbers{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+.box-content{
+	color: #9CB2C5;
+}
+.box-2{
+	width: 24%;
+	border-right: 0.1px solid #2C2950;
+	float: left;
+	padding: 25px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.box-3{
+	width: 24%;
+	border-right: 0.1px solid #2C2950;
+	float: left;
+	padding: 25px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.box-4{
+	width: 24%;
+/*	border-right: 0.1px solid #9CB2C5;*/
+	float: left;
+	padding: 25px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+
+.main-content{
+	width: 100%;
+	background-color: #F8F9FD;
+	padding-bottom: 200px;
+}
+.left-content{
+	width: 50%;
+	float: left;
+	border: 0px solid black;
+	padding-left: 100px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.heading{
+	margin-top: 100px;
+}
+.heading h2{
+	padding-top: 30px;
+	font-size: 35px;
+}
+.heading p{
+	padding-top: 40px;
+	padding-bottom: 30px;
+	color: #43505B;
+}
+.left-content-text-box{
+	width: 95%;
+	border: 1px solid lightgrey;
+	padding: 15px;
+	padding-bottom: 20px;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+.left-content-text-box h3{
+	padding: 7px;
+}
+.left-content-text-box p{
+	padding: 7px;
+	padding-bottom: 15px;
+	color: #43505B;
+}
+.left-content-text-box a{
+	padding: 7px;
+	color: #2699FB;
+}
+.left-content-text-box:hover{
+	border-color: #2699FB;
+} 
+
+
+.right-content{
+	width: 50%;
+	float: right;
+	padding-left: 15px;
+	margin-top:170px;
+	box-sizing: border-box;
+	border: 0px solid black;
+}
+.main-image{
+	background: url("../images/iq-dot-bg.webp") no-repeat top left;
+}
+/*.main-image{
+	background: url("../images/iq-circle.webp") no-repeat bottom right
+}*/
+.main-image img{
+	padding-left: 50px;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+
+.button{
+	width: 120px;
+	
+	overflow: hidden;
+}
+.button button{
+	width: 100px;
+	padding: 15px;
+	margin: 15px 10px;
+	box-sizing: border-box;
+	color: white;
+	background: #2699FB;
+	border-radius: 10px;
+	border-color: #F8F9FD;
+	font-size: 16px;
+	transition: 0.5s;
+}
+.button:hover button{
+	background-color: white;
+	border-color: #2699FB;
+	color: #4E4E4E;
+	transform: scale(1.1);
+}
+
+.clear{
+	clear: both;
+}

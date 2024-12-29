@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Equality of Arrays</title>
+    </head>
+    <body>
+
+        <script>
+
+           var array1 = [1,2,3];
+           var array2 = [1,2,3,4];
+           var count = 0;
+
+           if(array1.length != array2.length){
+
+                document.write("Both the Arrays are not Equal");
+
+           } else {
+
+                for(var i=0; i < array1.length; i++){
+
+                    if(array1[i] != array2[i]){
+                        count = 0;
+                        
+                    } else {
+                        count = 1;
+                    }
+                }
+
+                if(count == 0){
+                    document.write("Both the Arrays are not Equal");
+                } else {
+                    document.write("Both the Arrays are Equal");
+                }
+
+           }
+
+           
+           
+
+        </script>
+    </body>
+</html>
+
+   

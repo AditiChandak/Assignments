@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Grade Calculator</title>
+    </head>
+    <body>
+
+
+        <script>
+
+            var a = prompt("Enter Your Percentage.");
+            
+            if(a <= 100 && a >=90){
+                document.write("<center><h1> You Have Scored Grade A! <h1></center>");
+            } else if(a <= 89 && a >= 80){
+                document.write("<center><h1> You Have Scored Grade B! <h1></center>");
+            } else if(a <= 79 && a >= 70){
+                document.write("<center><h1> You Have Scored Grade C! <h1></center>");
+            } else if(a <= 69 && a >= 60){
+                document.write("<center><h1> You Have Scored Grade D! <h1></center>");
+            } else if(a < 60){
+                document.write("<center><h1> You Have Scored Grade F! <h1></center>");
+            } else {
+                document.write("<center><h1> Please Enter The Valid Percentage! <h1></center>");
+            }
+
+        </script>
+        
+    </body>
+</html>

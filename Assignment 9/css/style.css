@@ -1,0 +1,272 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+.body{
+	font-family: arial;
+}
+.main-div{
+	width: 750px;
+	margin: auto;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+.form-div{
+	width: 100%;
+}
+.fields{
+	padding-top: 25px;
+	box-sizing: border-box;
+}
+.fields legend{
+	font-size: 17px;
+	margin-left: 15px;
+}
+.row-1{
+	width: 100%;
+	border: 0px solid red;
+}
+.fname{
+	width: 50%;
+	border: 0px solid red;
+	float: left;
+	padding: 15px;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+.fname label{
+	font-size: 16px;
+}
+.fname input{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 15px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.lname{
+	width: 50%;
+	border: 0px solid red;
+	float: right;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.lname label{
+	font-size: 16px;
+}
+.lname input{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 15px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.row-2{
+	width: 100%;
+	border: 0px solid red;
+}
+.email{
+	width: 50%;
+	border: 0px solid red;
+	float: left;
+	padding: 15px;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+.email label{
+	font-size: 16px;
+}
+.email input{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 15px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.mobile{
+	width: 50%;
+	border: 0px solid red;
+	float: right;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.mobile label{
+	font-size: 16px;
+}
+.mobile input{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 15px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.row-3{
+	width: 100%;
+	border: 0px solid red;
+}
+.dob{
+	width: 50%;
+	border: 0px solid red;
+	float: left;
+	padding: 15px;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+.dob label{
+	font-size: 16px;
+}
+.dob input{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 15px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.state{
+	width: 50%;
+	border: 0px solid red;
+	float: right;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.state label{
+	font-size: 16px;
+}
+.state select{
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 15px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.row-4{
+	width: 100%;
+	border: 0px solid red;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+.gender-label{
+	width: 100%;
+	padding-left: 30px;
+	padding-bottom: 5px;
+	box-sizing: border-box;
+}
+.gender{
+	width: 740px;
+	margin: auto;
+	border: 1px solid black;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.gender label{
+	padding-left: 5px;
+	padding-right: 30px;
+}
+.row-5{
+	width: 100%;
+	border: 0px solid red;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+.row-5 label{
+	width: 100%;
+	padding-left: 30px;
+	padding-bottom: 5px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+.textarea{
+	font-size: 16px;
+	padding: 5px 25px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.row-6{
+	width: 100%;
+	border: 0px solid red;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+.qualification-label{
+	width: 100%;
+	padding-left: 30px;
+	padding-bottom: 5px;
+	box-sizing: border-box;
+}
+.qualification{
+	width: 740px;
+	margin: auto;
+	border: 1px solid black;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.qualification label{
+	padding-left: 5px;
+	padding-right: 30px;
+}
+.row-7{
+	width: 100%;
+	border: 0px solid red;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+.row-7 label{
+	width: 100%;
+	padding-left: 30px;
+	padding-bottom: 5px;
+	box-sizing: border-box;
+}
+.row-7 input{
+	width: 740px;
+	margin: auto;
+	border: 1px solid black;
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+.button{
+	width: 300px;
+	margin: auto;
+}
+.save-button{
+	padding: 15px;
+	float: left;
+
+}
+.save-button button{
+	color: white;
+	font-size: 15px;
+	background-color: #9B59B6;
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 15px 30px;
+}
+.reset-button{
+	padding: 15px;
+	float: left;
+}
+.reset-button button{
+	color: white;
+	font-size: 15px;
+	background-color: #9B59B6;
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 15px 30px;
+}
+.clear{
+	clear:both;
+}

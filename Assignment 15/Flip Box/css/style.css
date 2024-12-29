@@ -1,0 +1,43 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+.outer-main{
+	width: 100%;
+}
+.outer{
+	width: 1300px;
+	margin: auto;
+	padding: 15px 0px;
+	box-sizing: border-box;	
+}
+.all-images{
+	display: flex;
+	width: 300px;
+	position: relative;
+	margin: auto;
+	height: 300px;
+}
+
+.image1{
+	width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    transform: scale(0) rotateX(0deg);
+}
+.image2{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.5s;
+}
+
+.all-images:hover .image1{
+	transform:  scale(1) rotateX(180deg);
+}
+.all-images:hover .image2{	
+	transform: rotateY(180deg) scale(0);
+}

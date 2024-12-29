@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Traffic Light Simulator</title>
+    </head>
+    <body>
+
+
+        <script>
+
+            var colour = prompt("Enter Colour(red/yellow/green).").toLowerCase();
+            
+            if(colour == "red"){
+                document.write("<center><h1> RED. YOU MUST STOP! <h1></center>");
+            } else if(colour  == "yellow"){
+                document.write("<center><h1> YELLOW. SLOW DOWN AND WAIT! <h1></center>");
+            } else if(colour == "green"){
+                document.write("<center><h1> GREEN. YOU CAN GO! <h1></center>");
+            } else {
+                document.write("<center><h1> Please Enter Any Colour From Red, Yellow Or Green! <h1></center>");
+            }
+
+        </script>
+        
+    </body>
+</html>

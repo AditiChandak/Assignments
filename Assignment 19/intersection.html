@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Intersection Array</title>
+    </head>
+    <body>
+
+        <script>
+
+           var array1 = [1,2,3,4];
+           var array2 = [3,4,5,6];
+           var array3 = array1.concat(array2);
+           var newArray = [];
+           var newArray2 = [];
+
+           for(var value of array3){
+            if( newArray.includes(value)){
+                newArray2.push(value);
+            } else {
+                newArray.push(value);
+            }
+           }
+        //    console.log(array3);
+
+           document.write("Array 1 : " + array1 + "<br>");
+           document.write("Array 2 : " + array2 + "<br>");
+           document.write("Intersection of Both : " + newArray2);
+
+        </script>
+    </body>
+</html>

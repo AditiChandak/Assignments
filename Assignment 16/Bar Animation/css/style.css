@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-main{
+	width: 100%;
+	height: 100%;
+	background-color: #070721;
+	background-size: cover;
+}
+.bars ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;    
+}
+.bars ul li{
+    display: inline-block;
+    width: 12px;
+    height: 180px;
+}
+
+@keyframes barheight{
+
+	0%{
+		transform: scaleY(1);
+	}
+    50%{
+        transform: scaleY(1.5);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+
+.bar-1{
+    animation: barheight 2s infinite linear;
+    background-color: orange;
+}
+.bar-2{
+    animation: barheight 2.5s infinite linear;
+    background-color: #add8e6;
+}
+.bar-3{
+    animation: barheight 3s infinite linear;
+    background-color: yellow;
+}
+.bar-4{
+    animation: barheight 3.5s infinite linear;
+    background-color: green;
+}
+

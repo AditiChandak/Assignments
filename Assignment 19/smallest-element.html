@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Largest Number</title>
+    </head>
+    <body>
+
+        <script>
+
+            var numbers = [2,20,7,42,56];
+            var smallest = numbers[0];
+          
+            for(var i=0; i<numbers.length; i++){
+
+                if(numbers[i] < smallest){
+                    smallest = numbers[i];
+                }
+            }
+            document.write("Smallest Element in an Array = " + smallest);
+
+        </script>
+    </body>
+</html>

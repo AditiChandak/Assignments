@@ -1,0 +1,101 @@
+<html>
+	<head>
+		<title>Job Application Form</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="main-div">
+			<form class="form-div">
+				<fieldset class="fields">
+					<legend>JOB APPLICATION FORM</legend>
+					<div class="row-1">
+						<div class="fname">
+							<label>FIRST NAME</label><br>
+							<input type="textbox" name="fname" id="fname" placeholder="ENTER YOUR FIRST NAME" required>
+						</div>
+						<div class="lname">
+							<label>LAST NAME</label><br>
+							<input type="textbox" name="lname" id="lname" placeholder="ENTER YOUR LAST NAME" required>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="row-2">
+						<div class="email">
+							<label>EMAIL</label><br>
+							<input type="email" name="email" id="email" placeholder="xyz@gmail.com" required>
+						</div>
+						<div class="mobile">
+							<label>MOBILE NUMBER</label><br>
+							<input type="tel" name="mobile" id="mobile" placeholder="012-234-6789" pattern="[0-9]{10}" required>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="row-3">
+						<div class="dob">
+							<label>DOB</label><br>
+							<input type="date" name="dob" id="dob" required>
+						</div>
+						<div class="state">
+							<label>STATE</label><br>
+							<select id="state" required>
+								<option>SELECT</option>
+								<option>Andhra Pradesh</option>
+								<option>Goa</option>
+								<option>Haryana</option>
+								<option>Bihar</option>
+							</select>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="row-4">
+						<div class="gender-label">
+							<label>GENDER</label>
+						</div>
+						<div class="gender">
+							<input type="radio" name="gender" id="male" value="male" required>
+							MALE
+							<input type="radio" name="gender" id="female" value="female">
+							FEMALE
+							<input type="radio" name="gender" id="other" value="other">
+							OTHER
+						</div>
+					</div>
+					<div class="row-5">
+						<label>ADDRESS</label><br>
+						<div class="textarea">
+							<textarea rows="4" cols="100" placeholder="ENTER YOUR ADDRESS" required></textarea>
+						</div>
+					</div>
+					<div class="row-6">
+						<div class="qualification-label">
+							<label>QUALIFICATION</label>
+						</div>
+						<div class="qualification">
+							<input type="radio" name="qualification" id="10" value="10" required>
+							<label>10TH</label>
+							<input type="radio" name="qualification" id="12" value="12">
+							<label>12TH</label>
+							<input type="radio" name="qualification" id="under_graduate" value="under_graduate">
+							<label>UNDER GRADUATE</label>
+							<input type="radio" name="qualification" id="post_graduate" value="post_graduate">
+							<label>POST GRADUATE</label>
+						</div>
+					</div>
+					<div class="row-7">
+						<label>UPLOAD IMAGE</label>
+						<input type="file" name="file" required>
+					</div>
+					<div class="button">
+						<div class="save-button">
+							<button type="submit">SAVE</button>
+						</div>
+						<div class="reset-button">
+							<button type="reset">RESET</button>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>

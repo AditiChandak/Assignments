@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>BMI Calculator</title>
+    </head>
+    <body>
+
+
+        <script>
+
+            var age = prompt("Enter Your Age");
+            var gender = prompt("Enter Your Gender(Male/Female)");
+            var height = prompt("Enter Your Height(foot)");
+            var weight = prompt("Enter Your Weight(kg)");
+
+            var height = height*0.3048;  //Height converted in meters
+
+            var bmi = weight/(height * height);
+
+            if(bmi < 18.5){
+                document.write("<center><h1>YOU ARE UNDERWEIGHT.<h1></center>");
+            } else if(bmi >= 18.5 && bmi <= 24.9){
+                document.write("<center><h1>YOU HAVE NORMAL WEIGHT.<h1></center>");
+            } else if(bmi >= 25 && bmi <= 29.9){
+                document.write("<center><h1>YOU ARE OVERWEIGHT.<h1></center>");
+            } else if(bmi >= 30 && bmi <= 39.9){
+                document.write("<center><h1>OBESE.<h1></center>");
+            } else{
+                document.write("<center><h1>SEVERE OBESITY.<h1></center>");
+            }
+
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Temperature Converter</title>
+    </head>
+    <body>
+
+
+        <script>
+
+            var from = prompt("From (Celsius(c)/Fahrenheit(f)/Kelvin(k))");
+            var to = prompt("To (Celsius(c)/Fahrenheit(f)/Kelvin(k))");
+            var temp = prompt("Enter Temperature");
+            var temperature = parseInt(temp);
+
+            if(from == "c" && to == "f"){
+                temperature = (temperature*1.8)+32;
+                document.write(temperature);
+            } else if(from == "c" && to == "k"){
+                temperature = temperature+273.15;
+                document.write(temperature);
+            } else if(from == "c" && to == "c"){
+                document.write(temperature);
+            } else if(from == "f" && to == "c"){
+                temperature = (temperature-32)/1.8;
+                document.write(temperature);
+            }  else if(from == "f" && to == "f"){
+                document.write(temperature);
+            } else if(from == "f" && to == "k"){
+                temperature = (temperature + 459.67);
+                document.write(temperature);
+            } else if(from == "k" && to == "c"){
+                temperature = temperature - 273.15
+                document.write(temperature);
+            } else if(from == "k" && to == "f"){
+                temperature = (temperature * 9/5) - 459.67;
+                document.write(temperature);
+            } else if(from == "k" && to == "k"){
+                document.write(temperature);
+            } else {
+                document.write("<center><h1> Please Enter Number! <h1></center>");
+            }
+
+
+        </script>
+    </body>
+</html>

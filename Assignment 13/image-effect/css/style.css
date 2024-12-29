@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+.main-div{
+	width: 1500px;
+	margin: auto;
+}
+.outer-main{
+	width: 100%;
+	margin: 15px auto;
+}
+.row{
+	width: 100%;
+	display: flex;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+	justify-content: center;
+}
+.image{
+	flex-basis: 24%;
+	overflow: hidden;
+	position: relative;
+	margin-right: 1%;
+}
+.content{
+	text-align: center;
+	font-size: 17px;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	opacity: 0;
+	color: white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.content button{
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+.image:hover .content{
+	opacity: 1;
+}

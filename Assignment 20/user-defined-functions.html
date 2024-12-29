@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Defined Functions</title>
+</head>
+<body>
+    
+    <button onmouseover="reverseArray()">Reverse Array</button>
+    <button onclick="largestNumber()">Largest Number</button>
+    <button ondblclick="smallestNumber()">Smallest Number</button>
+    <button onmouseover="nonRepeated()">Non Repeated Character</button>
+    <button onclick="vowels()">Name Start From Vowels</button>
+    <button ondblclick="capitalize()">Capitalize First Letter</button>
+
+    <script>
+
+        // Function To Reverse Array
+        function reverseArray(){
+
+            var numbers = [2,20,7,42,56];
+            var newArray = numbers.reverse();
+           
+            console.log(newArray);
+
+        }
+        
+        // Function To Find Largest Number
+        function largestNumber(){
+
+            var numbers = [1,20,3,42,5];
+            var largest = numbers[0];
+          
+            for(var i=0; i<numbers.length; i++){
+
+                if(numbers[i] > largest){
+                    largest = numbers[i];
+                }
+            }
+            console.log(numbers);
+            console.log(largest);
+        }
+
+        // Function To Find Smallest Number
+        function smallestNumber(){
+
+            var numbers = [2,20,7,42,56];
+            var smallest = numbers[0];
+          
+            for(var i=0; i<numbers.length; i++){
+
+                if(numbers[i] < smallest){
+                    smallest = numbers[i];
+                }
+            }
+            
+            console.log(numbers);
+            console.log(smallest);
+        }
+
+        // Function To Find First Non-Repeated Letter
+        function nonRepeated(){
+
+            var word = "Hello World";
+            var characterCount = {};
+
+            for(var value of word){
+
+                value = value.trim().toLowerCase();
+                // console.log(value);
+
+                if(value != ''){
+                    characterCount[value] = (characterCount[value] || 0)+1;
+                    // console.log(characterCount);
+                }
+            }
+
+            for(var value of word){
+                value = value.trim().toLowerCase();
+                if(characterCount[value] == 1){
+                    console.log(word);
+                    console.log(characterCount);
+                    console.log(value);
+                    break;
+                }
+            }
+
+        }
+
+        // Function To Find Name Start From Vowels(a,e,i,o,u) and length of name is greater than 5
+        function vowels(){
+
+            var indianNames = ["Arjun","Vinita","Ravi","Nisha","Ishan","Priya","Veer","Sidhharth","Anika","Karan","Ayesha","Rahul","Uma","Vikram","Neha","Deepak","Kavita","Aditya","Divya","Rohan"];
+
+            var vowelsArray = ["a","e","i","o","u"];
+
+            indianNames.forEach(value => {
+                
+                var letter = value[0].toLowerCase();
+                var name = value.slice(1);
+                
+                // console.log(letter);
+                // console.log(name);
+                
+                for(var valueOfVowel of vowelsArray){
+
+                    if(letter.includes(valueOfVowel)){
+                        
+                       fullName = letter.toUpperCase() + name;
+                       
+                    }
+                }
+
+                if(fullName.length > 5){
+                    console.log(fullName);
+                }
+
+            });
+        }
+
+        // Function To Capitalize first Letter of Name
+        function capitalize(){
+
+            var indianNames = ["arjun","vinita","ravi","nisha","ishan","priya","veer","sidhharth","anika","karan","ayesha","rahul"];
+            var newArray = [];
+
+            indianNames.map((value) => {
+
+                var firstLetter = value[0].toUpperCase();
+                var name = value.slice(1);
+                
+                // console.log(firstLetter);
+                // console.log(name);
+                        
+                var fullName = firstLetter + name;
+                newArray.push(fullName);
+
+            })
+
+            console.log(newArray);
+        }
+
+    </script>
+
+</body>
+</html>

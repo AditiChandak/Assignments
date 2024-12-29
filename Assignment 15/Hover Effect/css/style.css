@@ -1,0 +1,50 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+.outer-main{
+	width: 100%;
+}
+.main{
+	width: 1300px;
+	margin: auto;
+}
+.image{
+	width: 400px;
+	margin: auto;
+	margin-top: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.image img{
+	width: 100%;
+}
+.content{
+	position: absolute;
+	top: 0px;
+	color: white;
+	text-align: center;
+	padding: 15px 0px;
+	font-size: 18px;
+	background-color: black;
+	opacity: 0.6;
+	visibility: hidden;
+	transition: 0.5s;
+	transform: scale(0);
+	transform-origin: top;
+}
+.content p{
+	padding: 5px 0px;
+	box-sizing: border-box;
+}
+.content button{
+	padding: 5px;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+}
+
+.image:hover .content{
+	transform: scale(1);
+	visibility: visible;
+}

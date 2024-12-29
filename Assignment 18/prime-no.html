@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Prime Number Checker</title>
+    </head>
+    <body>
+
+        <script>
+
+            var number = parseInt(prompt("Enter Any Number"));
+            var scale = 1;
+
+            for(var i=2; i<number; i++){
+                if(number % i == 0){
+
+                    scale = 0;
+                    break;
+                }
+            }
+
+            if(scale == 1){
+                document.write("It is a Prime Number.");
+            } else {
+                document.write("It is Not a Prime Number.");
+            }
+
+        </script>
+    </body>
+</html>

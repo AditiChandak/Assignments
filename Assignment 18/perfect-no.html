@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Perfect Numbers</title>
+    </head>
+    <body>
+
+        <script>
+            
+            var number = parseInt(prompt("Enter Number"));
+            var sum = 0;
+
+            for(var i=1; i<number; i++){
+                
+                if(number % i == 0){
+                    sum += i;
+                }
+            }
+
+            if(sum == number){
+                document.write(number + " is a Perfect Number!");
+            } else{
+                document.write(number + " is Not a Perfect Number!");
+            }
+
+        </script>
+    </body>
+</html>
