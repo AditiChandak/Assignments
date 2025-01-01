@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+body{
+    background-color: #D3D3D3;
+}
+.main{
+    width: 100%;
+}
+.inner{
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+h2{
+    font-size: 26px;
+    font-family: sans-serif;
+}
+.userData{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.calculate{
+    margin-top: 20px;
+}
+.calculate button{
+    background-color: #007BFF;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.userData input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.userData button{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.output{
+    width: 300px;
+    padding-top: 30px;
+    display: flex;
+    margin: auto;
+}
+.labels{
+    flex-basis: 40%;
+    font-size: 20px;
+}
+.labels label{
+    line-height: 43px;
+    font-weight: bold;
+}
+.inputs{
+    flex-basis: 70%;
+    font-size: 20px;
+}
+.inputs input{
+    width: 150px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    padding: 5px 15px;
+}
